@@ -1,0 +1,112 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+header {
+    padding: 25px;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+main {
+    width: 95%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+svg {
+    width: 100%;
+    height: auto;
+    background-color: #000;
+}
+
+/* Área do shopping */
+.shopping {
+    fill: #222;
+    stroke: white;
+    stroke-width: 3;
+}
+
+.texto-shopping {
+    fill: white;
+    font-size: 24px;
+    text-anchor: middle;
+}
+
+/* Vagas */
+.vaga {
+    fill: transparent;
+    stroke: white;
+    stroke-width: 3;
+}
+
+/* Indicadores */
+
+.livre {
+    fill: #00ff00;
+    stroke: #008800;
+    stroke-width: 3;
+    filter: drop-shadow(0 0 7px #00ff00);
+}
+
+
+.ocupada {
+    fill: #ff0000;
+    stroke: #880000;
+    stroke-width: 3;
+    filter: drop-shadow(0 0 7px #ff0000);
+}
+
+.entrada {
+    fill: #00ff00;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.saida {
+    fill: #ff0000;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.parede{
+    
+    fill: transparent;
+    stroke: white;
+    stroke-width: 3;
+
+}
+
+
+
+#conectarArduino {
+    background: #16a34a;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#conectarArduino:hover {
+    background: #15803d;
+}
+
+#statusArduino {
+    color: white;
+    margin: 15px;
+}
